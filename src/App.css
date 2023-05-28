@@ -1,0 +1,41 @@
+#root {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0rem;
+  text-align: center;
+}
+
+.pokemones{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+h1{
+  display: block;
+  text-align: center;
+  justify-content: center;
+  padding-bottom: 20px;
+}
+.active {
+  color: rgb(255, 1, 1);
+
+}
+.select{
+  padding-bottom: 20px;
+}
+.notActive {
+  color: rgb(255, 255, 255);
+}
+.navbar {
+  background-color: rgb(136, 132, 132);
+  display: flex;
+  justify-content: flex-end;
+}
+.NavLink{
+  padding-left: 30px;
+}
+h5{
+  padding-left: 20px;
+}
